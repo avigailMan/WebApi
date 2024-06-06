@@ -1,0 +1,163 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #6d6875;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #ffb4a2;
+    margin-bottom: 5px;
+}
+
+h6 p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #6d6875;
+}
+
+a {
+    color: #9a8c98;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.cart {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* טבלה */
+table.items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.item-row:hover {
+    background-color: #eef2f3;
+    transition: background-color 0.3s ease;
+}
+
+/* עיצוב כותרות */
+#title p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* כפתורים */
+.nxbtn.primary {
+    background-color: #ffb4a2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    .nxbtn.primary:hover {
+        background-color: #f67280;
+    }
+
+.shopmore {
+    background-color: #a1c4fd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    .shopmore:hover {
+        background-color: #4db6ac;
+    }
+
+/* עיצוב עמודות */
+.imageColumn .img-w {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.imageColumn img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.descriptionColumn {
+    max-width: 300px;
+}
+
+.availabilityColumn {
+    color: #56c596;
+    font-weight: bold;
+}
+
+.totalColumn {
+    color: #f67280;
+    font-weight: bold;
+}
+
+.DeleteButton {
+    background-color: #ffb4a2;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .DeleteButton:hover {
+        background-color: #f67280;
+    }

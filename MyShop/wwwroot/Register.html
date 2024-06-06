@@ -1,0 +1,55 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> hello to our web site</title>
+    <link rel="stylesheet" type="text/css" href="Register.css" />
+    <script src="Register.js"></script>
+
+</head>
+<body>
+    <div class="container" id="register">
+        <br /><br /><br /> <br /><br /><br />
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="email"><b>אימייל</b></label>
+        <input type="email" placeholder="example@gmail.com" name="email" id="email">
+        <label style="display:none ;font-size:smaller" for="userName" id="validEmail"><b>כתובת אמייל לא תקינה</b></label>
+        <label for="psw"><b>סיסמא</b></label>
+        <input type="password" placeholder="הכנס סיסמא" name="psw" id="psw" oninput="passwordChecking()">
+        <br />
+        <input id="passwordCheck" placeholder="חוזק סיסמא " />
+        <br />
+        <br />
+
+        <label for="firstName"><b>שם פרטי</b></label>
+        <input type="text" placeholder="הכנס שם פרטי" name="firstName" id="firstName">
+
+        <label for="lastName"><b>שם משפחה</b></label>
+        <input type="text" placeholder="הכנס שם משפחה" name="lastName" id="lastName">
+        <hr>
+        <button onclick="addUser()">register</button>
+    </div>
+    <div class="container" id="login">
+        <h1>login</h1>
+
+        <hr>
+
+        <label for="emailLogin"><b>אימייל</b></label>
+        <input type="text" placeholder="הכנס אימייל" name="emailLogin" id="emailLogin">
+
+        <label for="psw"><b>סיסמא</b></label>
+        <input type="password" placeholder="הכנס סיסמא" name="psw" id="pswLogin">
+
+
+        <hr>
+        <button onclick="login()">login</button>
+        <br /><br /><br /><br />
+    </div>
+   
+</body>
+</html>
