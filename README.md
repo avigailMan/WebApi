@@ -36,7 +36,7 @@ DI is used extensively throughout the project, providing several benefits:
 
 ### Database
 
-The project uses Entity Framework with the Database First approach. To run the project, you can use commands like `add-migration` and other EF Core CLI commands.
+The project uses Entity Framework with the Database First approach. To run the project, you can use commands like `add-migration update database` and other EF Core CLI commands.
 
 ### Scalability
 
